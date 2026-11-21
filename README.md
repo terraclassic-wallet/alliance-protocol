@@ -1,97 +1,129 @@
-![Terra Station Wallet](assets/banner-hub.png)
+# Terra Testnets
+![banner](./terra-networks.png)
 
-<h1 align="center">Alliance Protocol</h1>
+This repo collects the genesis and configuration files for the various Terra testnets. 
+It exists so the [Core repository](https://github.com/terra-money/core) does not get bogged down with large genesis files and status updates.
 
-<p align="center">Source code held in the Terra Station Wallet account, with no licence file currently recorded.</p>
+## Latest networks
 
-<div align="center">
+* [Bombay-10](./bombay-10) testnet for columbus-5
+* [Tequila-0004](./tequila-0004) testnet for columbus-4 
 
-<p align="center"><a href="https://github.com/terraclassic-wallet/terra-station-wallet/blob/HEAD/LICENSE"><img src="https://img.shields.io/badge/license-unknown-5392F7?style=for-the-badge&labelColor=101A42" alt="license unknown"></a></p>
+## Getting Started
 
-</div>
+To get started with the latest testnet, see the
+[docs](https://docs.terra.money/node/join-network.html#joining-a-network).
 
-## What this repository is for
+## Testnet Status
+### *Aug 20, 2021 06:00:40 UTC*
+- bombay-10 live
+- bombay-9 retired
 
-This repository is part of the supporting source in an account whose published product is Terra Station Wallet. It carries no installer, publishes no articles of its own, and is not the entry point for anybody who simply wants LUNC in a wallet they control. The page exists so that a reader who found the repository through a search, a dependency or a fork knows what account it belongs to and what it does not offer.
+### *Aug 13, 2021 08:00 UTC*
+- bombay-9 live
+- bombay-0008 retired
 
-The most useful fact on this page is the licence, or rather the absence of one. GitHub reports no licence file in this repository, which means the default applies: the code is published and readable, and reuse beyond reading has no grant here. A reader planning to build on it should treat that as unlicensed until the maintainers record terms, and should not read the absence as permission.
+### *July 14, 2021 06:00 UTC*
+- bombay-0008 live
+- bombay-0007 retired
 
-What follows from that is a page about boundaries rather than features. The code is the description of the code, the commit history is the record of how it has changed, and this page does not summarise either. A marketing summary of an implementation is stale within a release cycle, and it is the kind of claim a reader cannot check for themselves, which is the worst kind to publish.
+### *June 04, 2021 00:00 UTC*
+- bombay-0007 live
+- bombay-0006 retired
 
-The reader-facing material in this account is elsewhere, in three hubs about the wallet. This page points at them without pretending that the code here is part of the reader's path.
+### *May 31, 2021 06:00 UTC*
+- bombay-0006 live
+- bombay-0005 retired
 
-## Who it is for
+### *May 26, 2021 13:00 UTC* 
+- bombay-0005 live
 
-- You are assessing this repository as a dependency and need the licensing position stated before you look further.
-- You are mapping the account and want to know how a source repository relates to the product it sits beside.
-- You found the name in a fork or a dependency list and want to confirm which account publishes it.
-- You want the reader-facing wallet material and need to be sent to the right hub quickly.
+### *Oct 04, 2020 09:00 UTC*
+- soju-0014 retired
 
-## Start here
+### *Aug 21, 2020 09:00 UTC*
+- tequila-0002 live
+- tequila-0001 retired
 
-- [Terra Station Wallet](https://github.com/terraclassic-wallet/terra-station-wallet) - The application this account actually publishes, with its release record.
-- [What Terra Station Wallet Is and Who Maintains It](https://github.com/terraclassic-wallet/terra-classic-wallet-guides/blob/main/terra-station-what-is-it.md) - What the product claims, and what it leaves to the chain.
-- [How to Choose a LUNC Wallet](https://github.com/terraclassic-wallet/terra-classic-wallet-guides/blob/main/how-to-choose-a-lunc-wallet.md) - The questions that separate self-custody from custody, in plain terms.
-- [The account profile](https://github.com/terraclassic-wallet) - The index across every repository published here.
+### *July 13, 2020 08:30 UTC*
+- tequila-0001 live
+- vodka-0001 retired
 
-## How to read this repository's position
+### *April 25, 2020 04:00 UTC*
+- soju-0014 live
+- soju-0013 retired
 
-1. Establish what you need from it. If it is a file to install, this is the wrong repository and the application repository is the right one.
-2. Check the licence before anything else. No licence file is recorded here, so no reuse right is granted by this page or by the publication itself.
-3. Read the source rather than a summary. Nothing here describes the implementation, and a description written to fill a page would be exactly the claim you should not trust.
-4. Use the issue tracker for questions. It is public, and no part of this account asks for credentials to answer one.
-5. Take the guides if you wanted the wallet rather than the code. The three hubs cover install, recovery and on-chain use.
+### *Dec 09, 2019 07:00 UTC*
+- vodka-0001 live
+- vodka      retired
 
-## The guides, grouped
+### *Dec 04, 2019 06:00 UTC*
+- soju-0013 live
+- soju-0012 retired
 
-This repository indexes no articles. The account's writing is in three places, and each lists its own pages:
+### *Nov 24, 2019 06:40 UTC*
+- soju-0012 live
+- soju-0011 retired
 
-| Repository | Covers | Articles |
-| --- | --- | --- |
-| [terra-station-wallet-installation](https://github.com/terraclassic-wallet/terra-station-wallet-installation) | Obtaining the wallet: download, checksum, platform pages, updates. | 9 |
-| [lunc-wallet-recovery](https://github.com/terraclassic-wallet/lunc-wallet-recovery) | Restoring access: phrases, keys, hardware, empty balances. | 9 |
-| [terra-classic-wallet-guides](https://github.com/terraclassic-wallet/terra-classic-wallet-guides) | Staking, support states, safety and chain reference. | 27 |
+### *Nov 20, 2019 06:30 UTC*
+- soju-0011 live
+- soju-0010 retired
 
-## What each question resolves to
+### *Nov 18, 2019 17:50 UTC*
+- soju-0010 live
 
-| Your question | Where it resolves | What you get |
-| --- | --- | --- |
-| May I reuse this code? | The licensing position above | No grant is recorded, so no reuse right is assumed. |
-| What does this code do? | The source and its history | The implementation itself, which is the only accurate account. |
-| Is this the wallet download? | The application repository | The release record and the installer for your platform. |
-| How do I keep LUNC safe? | The safety article | What self-custody does and does not protect against. |
-| Who answers a question about it? | The issue tracker | A public channel, with no account beyond GitHub. |
+### *Aug 19, 2019
+- soju-0009 retired
 
-## Common first questions
+### *July 26, 2019 05:20 UTC*
+- vodka started
 
-### Is there a licence I can rely on?
+### *April 22, 2019 15:46 UTC* - Soju-0008
+- terra 0.1.1 based
 
-No licence file is recorded in this repository, so the default position applies and no reuse permission is granted here. If you need a grant, the maintainers have to record one; this page cannot supply it and will not imply it.
+### *April 19, 2019 07:00 UTC* - Columbus-drill (retired)
 
-### Does this repository belong to the wallet?
+- `columbus-drill` Launching Columbus-drill
+- cosmos 0.34.0 based
+- terra 0.1.0-rc0 based
 
-It belongs to the same account, which publishes the wallet, and it is not the wallet. The product is the desktop application; this is supporting source, held under its own terms and its own history.
+### *April 11, 2019 04:00 UTC* - Soju-0007 (retired)
 
-### Should I install anything from here?
+- `soju--0007` Launching Soju-0007
+- cosmos 0.33.0 based
+- terra 0.0.7 based
 
-No. Nothing in this repository is an installer, and the account's only download path is the release record of the application, where every file has a published checksum beside it.
 
-### Why does a marketing page say so little about the code?
+### *April 4, 2019 04:00 UTC* - Soju-0006 (retired)
 
-Because a page that described an implementation would be wrong as soon as the implementation changed, and the reader could not tell. The source is available, and it is the accurate answer to that question.
+- `soju--0006` Launching Soju-0006
+- cosmos 0.32.0 based
 
-## Before you build on this
+### *January 8, 2018 04:00 UTC* - Soju-0005 (retired)
 
-Confirm the licensing position with the maintainers if you need one, and read the source before you depend on any behaviour it appears to have. Those two steps are the whole review for a repository published without terms, and neither can be skipped by reading a page like this one.
+- `soju--0005` Launching Soju-0005
+- cosmos 0.32.0 based
 
-If you arrived for the wallet rather than the code, take the install hub. It assumes nothing about this repository and covers the download, the checksum comparison and the first launch.
+### *January 8, 2018 04:00 UTC* - Soju-0004 (retired)
 
-## About this repository
+- `soju--0004` Launching Soju-0004
+- market module added
+- fauset account added
 
-One of the source repositories in an account built around Terra Station Wallet. It is published openly, carries no recorded licence, and sits beside three guide hubs that serve the reader rather than the developer.
+### *January 7, 2018 08:00 UTC* - Soju-0003 (retired)
 
-Every link here stays inside GitHub. The account publishes no external site, no newsletter and no download mirror, and any page that offers one is not part of this set.
+- `soju--0003` Launching Soju-0003
+- oracle, subsidy, treasury included
 
-## Licence and reuse
+### *December 18, 2018 03:00 UTC* - Soju-0002 (retired)
 
-No licence file is recorded in this repository, so no reuse right is granted by its publication. That is a statement of the current position rather than a permission, and it should be read as the conservative answer until the maintainers record terms.
+- `soju--0002` Launching Soju-0002
+
+### *December 5, 2018 11:40 UTC* - Terra-0001 (retired)
+
+- `terra--0001` Launching Terra-0001
+
+### *November 28, 2018 23:00 UTC* - Terra-0000 (retired)
+
+- `terra--0000` Launching Terra-0000
+
