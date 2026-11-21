@@ -63,7 +63,7 @@ The README has three parts, and each answers a different question:
 | Getting Started | A pointer to the joining procedure | You have chosen and need the steps |
 | Testnet Status | Dated entries from 2018 to 2021, each naming the network that went live and the one retired | You need to know when a network existed |
 
-## What each network changes
+## What each network changes.
 
 | Network | Paired with | What the README says |
 | --- | --- | --- |
